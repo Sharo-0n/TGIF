@@ -1,11 +1,23 @@
 {
-  "name" : "TGIF",
-  "version" : "0.0.1",
-  "scripts" : {
-    "start" :"node Server.js"
+  "name": "THT-SOLUTE",
+  "version": "0.0.1",
+  "description": "THT-SOLUTE",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js",
+    "test": "echo \"Error:no test specified\" && exit 1"
   },
-  "dependencies" : {
-    "express" : "latest"
+  "keywords": [
+    "TGIF",
+    "THT",
+    "SOLUTE",
+    "SOULIT"
+  ],
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "author": "jane-doe",
+  "engines": {
+    "node": "8.1.3"
   }
 }
-
